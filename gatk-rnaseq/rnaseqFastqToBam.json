@@ -1,0 +1,20 @@
+{
+  "##_COMMENT_1##": "Rnaseq fastq to raw bam",
+  "rnaseqFastqToBam.picardLocation": "/vlsci/SG0009/bshaban/gatk/rnaseqComplete/picard.jar",
+  "rnaseqFastqToBam.refFasta": "/vlsci/SG0009/bshaban/gatk/rnaseqComplete/reference/Homo_sapiens_assembly38.fasta",
+  "rnaseqFastqToBam.inputSamplesFile": "/vlsci/SG0009/bshaban/gatk/rnaseqComplete/inputFastq.txt",
+  "rnaseqFastqToBam.gatkLocation": "/vlsci/SG0009/bshaban/gatk/rnaseqComplete/GenomeAnalysisTK.jar",
+  "rnaseqFastqToBam.refIndex": "/vlsci/SG0009/bshaban/gatk/rnaseqComplete/reference/Homo_sapiens_assembly38.fasta.fai",
+  "rnaseqFastqToBam.refDict": "/vlsci/SG0009/bshaban/gatk/rnaseqComplete/reference/Homo_sapiens_assembly38.dict",
+  "rnaseqFastqToBam.genomeDir": "/vlsci/SG0009/bshaban/gatk/rnaseqComplete/reference/genomeData",
+
+  "##_COMMENT_2##": "Star alignment variables",
+  "rnaseqFastqToBam.starAlignment.starAlignmentRunThreads": "6",
+  "rnaseqFastqToBam.starAlignment.starAlignmentRunMinutes": "3000",
+  "rnaseqFastqToBam.starAlignment.starAlignmentRunMem": "40000",
+
+  "##_COMMENT_3##": "convert bam",
+  "rnaseqFastqToBam.convertSamToBam.convertSamToBamRunThreads": "6",
+  "rnaseqFastqToBam.convertSamToBam.convertSamToBamRunMinutes": "3000",
+  "rnaseqFastqToBam.convertSamToBam.convertSamToBamRunMem": "40000"
+}
